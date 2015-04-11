@@ -9,4 +9,7 @@ public class Rectangle {
 		this.hight=hight;
 	}
 
+	public int P(){
+		return 2*(this.hight+this.width);
+	}
 }
